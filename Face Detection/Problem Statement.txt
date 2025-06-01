@@ -1,6 +1,6 @@
 Problem Statement:
 
-The given 'images.npy' dataset comprises of images and their masks for the corresponding human faces.
+The dataset comprises of images and their masks for the corresponding human faces.
 
 The Objective: To build a face detection system.
 
