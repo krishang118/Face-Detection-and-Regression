@@ -19,4 +19,3 @@ Add appropriate Upsampling layers to imitate U-net architecture.
 • Train and tune the model as required.
 • Evaluate and share insights on the performance of the model.
 (c) Test the model predictions on the test image: ‘image with index 22 in the test data’ and visualize the predicted masks on the faces in the test image.
-
