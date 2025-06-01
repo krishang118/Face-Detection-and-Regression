@@ -10,8 +10,7 @@ Tasks:
 • Import and read ‘images.npy’.
 • Split the data into Features(X) and labels(Y). Unify shape of all the images. Replace all the pixels within the masked area with 1.
 • Split the data into train, validation and test samples.
-• Select a random image from the train data, display the original image, and masked image
-for it.
+• Select a random image from the train data, display the original image, and masked image for it.
 (b) Model building:
 • Design a face mask detection model. Use MobileNet architecture for the initial pre-trained non-trainable layers. 
 Add appropriate Upsampling layers to imitate U-net architecture.
