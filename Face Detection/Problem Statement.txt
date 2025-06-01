@@ -1,0 +1,21 @@
+Problem Statement:
+
+The given 'images.npy' dataset comprises of images and their masks for the corresponding human faces.
+
+The Objective: To build a face detection system.
+
+Tasks:
+(a) Import and understand the data:
+• Import and read ‘images.npy’.
+• Split the data into Features(X) and labels(Y). Unify shape of all the images. Replace all the pixels within the masked area with 1.
+• Split the data into train, validation and test samples.
+• Select a random image from the train data, display the original image, and masked image
+for it.
+(b) Model building:
+• Design a face mask detection model. Use MobileNet architecture for the initial pre-trained non-trainable layers. 
+Add appropriate Upsampling layers to imitate U-net architecture.
+• Design the Dice Coefficient and Loss function.
+• Train and tune the model as required.
+• Evaluate and share insights on the performance of the model.
+(c) Test the model predictions on the test image: ‘image with index 22 in the test data’ and visualize the predicted masks on the faces in the test image.
+
