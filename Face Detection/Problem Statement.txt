@@ -13,7 +13,7 @@ Tasks:
 • Select a random image from the train data, display the original image, and masked image for it.
 (b) Model building:
 • Design a face mask detection model. Use MobileNet architecture for the initial pre-trained non-trainable layers. 
-Add appropriate Upsampling layers to imitate U-net architecture.
+Add appropriate Upsampling layers to imitate U-Net architecture.
 • Design the Dice Coefficient and Loss function.
 • Train and tune the model as required.
 • Evaluate and share insights on the performance of the model.
